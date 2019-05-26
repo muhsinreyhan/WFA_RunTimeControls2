@@ -55,5 +55,10 @@ namespace WFA_RunTimeControls
             Button gelenDeger = (Button)sender; //sender objesini cast yaparak button özelliklerini aldım.
             MessageBox.Show(gelenDeger.Text);
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
